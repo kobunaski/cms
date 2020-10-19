@@ -52,3 +52,14 @@ textarea {
 select {
   margin: 0;
 }
+
+button {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
