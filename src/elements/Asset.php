@@ -1639,7 +1639,7 @@ class Asset extends Element
                 '</div>';
 
             if ($editable) {
-                $html .= '<div class="buttons"><div class="btn">' . Craft::t('app', 'Edit') . '</div></div>';
+                $html .= '<div class="buttons"><button type="button" class="btn">' . Craft::t('app', 'Edit') . '</button></div>';
             }
 
             $html .= '</div>';

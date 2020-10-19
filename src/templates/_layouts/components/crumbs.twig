@@ -1,5 +1,5 @@
 <div id="crumbs"{% if not crumbs %} class="empty"{% endif %}>
-    <a id="nav-toggle" title="{{ 'Show nav'|t('app') }}"></a>
+    <button type="button" id="nav-toggle" aria-label="{{ 'Show nav'|t('app') }}"></button>
     {% if crumbs %}
         <nav>
             <ul>
